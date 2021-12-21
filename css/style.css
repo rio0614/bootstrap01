@@ -15,3 +15,18 @@ h2 {
     height: auto;
     margin: auto;
 }
+
+.service,
+.useExample {
+  background-color: #e5e1bd;
+}
+
+.useExample .carousel-indicators li {
+  position: relative;
+  top: 25px;
+  height: 7px;
+}
+
+.useExample .carousel-indicators li:not(:first-child) {
+  margin-left: 10px;
+}
